@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Contact | 1 Heart Productions</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="index.html" class="logo">
+        <img src="images/LOGO.png" alt="1 Heart Productions Logo" class="logo-img" width="57px"/>
+        <span class="logo-text">1 Heart Productions</span>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle navigation" id="navToggle">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="site-nav" id="siteNav">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="categories.html" class="nav-link">Categories</a>
+        <a href="portfolio.html" class="nav-link">Portfolio</a>
+        <a href="contact.html" class="nav-link active">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow">Contact</p>
+        <h1>Let’s plan your next event.</h1>
+        <p class="hero-text">
+          Share a few details about your idea. We’ll get back to you with suggestions, formats, and next steps.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container grid two-col">
+        <div>
+          <h2>Send us a message</h2>
+
+          <form id="contactForm" class="contact-form" method="POST">
+            <div class="form-group">
+              <label for="name">Full Name</label>
+              <input type="text" id="name" name="name" placeholder="Your name" required />
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" placeholder="you@example.com" required />
+            </div>
+
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone" placeholder="+91-XXXXXXXXXX" />
+            </div>
+
+            <div class="form-group">
+              <label for="type">Event Type</label>
+              <select id="type" name="type">
+                <option value="">Select an option</option>
+                <option value="Hunarbaaz">Hunarbaaz</option>
+                <option value="Talent Hunt Show">Talent Hunt Show</option>
+                <option value="Corporate Talent Night">Corporate Talent Night</option>
+                <option value="School / College Event">School / College Event</option>
+                <option value="Custom Concept">Custom Concept</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="businessType">Business Type</label>
+              <select id="businessType" name="businessType" required>
+                <option value="">Select an option</option>
+                <option value="Contestants">Contestants</option>
+                <option value="Sponsorship">Sponsorship</option>
+                <option value="Investor">Investor</option>
+                <option value="Event Booking">Event Booking</option>
+                <option value="Shoot">Shoot</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Event Details</label>
+              <textarea id="message" name="message" rows="4" placeholder="Tell us more..."></textarea>
+            </div>
+
+            <button type="submit" class="btn primary fullwidth">Submit Enquiry</button>
+          </form>
+        </div>
+
+        <div>
+          <h2>Direct contact</h2>
+          <p class="contact-info">
+            <strong>Email:</strong>    1heart.eventproductions@gmail.com<br />
+            <strong>Phone:</strong>    +91 9170727478<br />
+            <strong>City: </strong>     Kanpur, UP, India
+          </p>
+          <p>
+            Prefer social media? Reach us instantly using any of the platforms below-
+          </p>
+          <ul class="contact-links">
+            <li>
+              <a
+                href="https://wa.me/919170727478?text=Hi%201%20Heart%20Productions%2C%20I%20want%20to%20plan%20an%20event."
+                target="_blank"
+                rel="noreferrer"
+              >
+                <i class="fa-brands fa-whatsapp"></i> WhatsApp
+              </a>
+            </li>
+            <li><a href="https://www.instagram.com/1heart.eventproductions/" target="_blank" rel="noreferrer"><i class="fa-brands fa-instagram"></i> Instagram</a></li>
+            <li><a href="#" target="_blank" rel="noreferrer"><i class="fa-brands fa-x-twitter"></i> Twitter</a></li>
+            <li><a href="https://www.youtube.com/@The1HeartProductions" target="_blank" rel="noreferrer"><i class="fa-brands fa-youtube"></i> YouTube</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+ <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="logo footer-logo">
+          <img src="images\LOGO.png" alt="1 Heart Productions Logo" class="logo-img" width="57px" />
+          <span class="logo-text">1 Heart Productions</span>
+        </div>
+        <p class="footer-text">
+          Event organizing firm specializing in talent hunt shows, live performances, and custom concepts.
+        </p>
+      </div>
+      <div class="footer-col">
+        <h4>Pages</h4>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="categories.html">Categories</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="footer-col">
+        <h4>Social</h4>
+        <a href="https://wa.me/919170727478?text=Hi%201%20Heart%20Productions%2C%20I%20want%20to%20plan%20an%20event." class="social-link"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
+        <a href="https://www.instagram.com/1heart.eventproductions/" class="social-link"><i class="fa-brands fa-instagram"></i> Instagram</a>
+        <a href="#" class="social-link"><i class="fa-brands fa-x-twitter"></i> Twitter</a>
+        <a href="https://www.youtube.com/@The1HeartProductions" class="social-link"><i class="fa-brands fa-youtube"></i> YouTube</a>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© <span id="year"></span> 1Heart Productions. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

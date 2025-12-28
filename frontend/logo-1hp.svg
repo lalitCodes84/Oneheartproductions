@@ -1,0 +1,33 @@
+<svg width="260" height="80" viewBox="0 0 260 80" xmlns="http://www.w3.org/2000/svg">
+  <rect width="260" height="80" rx="20" fill="#020617"/>
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f97316"/>
+      <stop offset="40%" stop-color="#ef4444"/>
+      <stop offset="80%" stop-color="#ec4899"/>
+    </linearGradient>
+  </defs>
+  <circle cx="50" cy="40" r="26" fill="url(#grad1)"/>
+  <text x="50" y="44"
+        text-anchor="middle"
+        font-family="Poppins, system-ui, sans-serif"
+        font-size="16"
+        font-weight="700"
+        letter-spacing="2"
+        fill="#0b1020">
+    1HP
+  </text>
+  <text x="90" y="34"
+        font-family="Poppins, system-ui, sans-serif"
+        font-size="18"
+        font-weight="600"
+        fill="#f9fafb">
+    1 Heart Productions
+  </text>
+  <text x="90" y="52"
+        font-family="Poppins, system-ui, sans-serif"
+        font-size="11"
+        fill="#9ca3af">
+    Talent Hunt Shows & Events
+  </text>
+</svg>
